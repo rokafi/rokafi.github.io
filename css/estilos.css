@@ -4,6 +4,10 @@ html,body{
     background-color: aqua;
 }
 
+#mensaje{
+    text-align: center;
+}
+
 nav{
     padding: 10px;
     display: flex;
@@ -13,32 +17,41 @@ nav{
 
 #nav-logo{
     display: flex;
-    background-color: burlywood;
 }
 
 #nav-options{
     margin: 0px;
     padding: 0px;
-    background-color: burlywood;
-    
-    vertical-align: middle;
 }
+
 nav ul{
-    margin: 0px;
     padding: 0px;
-    vertical-align: middle;
-    background-color: blue;
     display: flex;
     list-style: none;
 }
 
 nav li{
-    font-size: 50px;
-    vertical-align: center;
-    padding-right: 10px;
+    font-size: 20px;
+    padding-right: 20px;
 }
 
 nav li a{
     color: black;
     text-decoration: none;
+}
+
+footer{
+    display: flex;
+}
+
+footer ul{
+    padding: 0px;
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+footer ul li{
+    margin-right: 20px;
 }
