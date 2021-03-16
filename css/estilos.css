@@ -85,3 +85,9 @@ footer ul{
 footer ul li{
     margin-right: 12px;
 }
+
+#privacidad{
+    text-align: justify;
+    padding: 20%;
+    padding-top: 50px;
+}
